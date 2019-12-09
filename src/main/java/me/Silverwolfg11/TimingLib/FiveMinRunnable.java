@@ -33,7 +33,10 @@ public class FiveMinRunnable extends BukkitRunnable {
     @Override
     public void run() {
         // Safety check so there's no way two tasks can run at once
-        if (!canRun) release();
+        if (!canRun) {
+            release();
+            return;
+        }
 
         LocalDateTime dateTime = LocalDateTime.now();
 

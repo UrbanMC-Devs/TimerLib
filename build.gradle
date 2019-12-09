@@ -33,5 +33,6 @@ shadowJar {
 
     dependencies {
         include(dependency('co.aikar:taskchain-bukkit:3.7.2'))
+        include(dependency('co.aikar:taskchain-core:3.7.2'))
     }
 }
