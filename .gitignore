@@ -1,0 +1,8 @@
+# Intellij
+.idea
+TimerLib.iml
+
+# Gradle
+.gradle
+gradle
+build

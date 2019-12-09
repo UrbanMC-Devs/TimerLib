@@ -1,0 +1,8 @@
+name: TimerLib
+main: me.Silverwolfg11.TimingLib.TimerLibPlugin
+version: 1.0
+api-version: 1.14
+description: A library that contains time events and Aikar's TaskChain shaded in
+commands:
+  timerlib:
+    description: Command for timerlib
