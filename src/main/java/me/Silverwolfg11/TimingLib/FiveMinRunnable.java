@@ -15,6 +15,8 @@ public class FiveMinRunnable extends BukkitRunnable {
     private boolean canRun = true;
 
     FiveMinRunnable(TimerLibPlugin plugin) {
+        this.plugin = plugin;
+
         LocalDateTime dateTime = LocalDateTime.now();
 
         int min = dateTime.getMinute();
